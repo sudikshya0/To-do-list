@@ -1,0 +1,13 @@
+.listItem-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0  5px rgba(0,0,0,0.15);
+}
+
+i{
+    cursor: pointer;
+}

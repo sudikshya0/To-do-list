@@ -1,0 +1,29 @@
+[
+    {
+    "id": 0,
+    "name": "React",
+    "detail":"ReactJS"
+    },
+    
+    {
+    "id": 1,
+    "name":"Flutter",
+    "detail":"Flutter"
+    },
+     
+    {
+    "id": 2,
+    "name":"Python",
+    "detail":"Python"
+    },
+      
+    {
+    "id": 3,
+    "name":"Java",
+    "detail":"Java"
+    },
+    {
+    "id": 4,
+    "name":"Javascript",
+    "detail":"JavaScript"}
+]
