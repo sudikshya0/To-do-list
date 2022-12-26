@@ -8,6 +8,7 @@ const List = () => {
     const [selected, setSelected] = useState(-1);
     const [openModal, setOpenModal]= useState(false);
     const [list, setData]= useState(data);
+    const [add, setAdd] = useState({name: '', detail: ''});
 
   return (
     <div>

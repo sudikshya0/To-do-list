@@ -6,6 +6,18 @@ import axios from 'axios';
 function Add({closeModal}) {
   const [text, setText]= useState("");
   const [title, setTitle]= useState("");
+  const [add,setAdd]= useState({name: "",detail: ""})
+
+  const addHandler = () => {
+    let newvalue = {};
+    newvalue = {
+      name: text,
+      detail: title}
+    setAdd(add => ({
+      ...add,
+      ...newvalue
+    }));
+  }
   
   return (
     <div className="add-background">
@@ -22,7 +34,7 @@ function Add({closeModal}) {
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" onChange={(e)=>setText(e.target.value)}></textarea>
               </div>
             </form>
-        <button className='add-btn' >Add</button>
+        <button className='add-btn' onClick={addHandler} >Add</button>
       </div>
     </div>
     
